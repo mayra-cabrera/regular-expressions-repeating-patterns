@@ -29,7 +29,7 @@ module RepeatingRegexes
   #   * aza
   #   * aa
   def regex_matching_z_at_most_once
-    /az{0,}a/
+    /az?a/
   end
 
   # Returns a regex that matches a string that has "a", then exactly ten "z"s,
